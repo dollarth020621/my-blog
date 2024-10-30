@@ -4,7 +4,7 @@
 # Chạy lint-staged
 npx lint-staged
 
-# Kiểm tra mã trạng thái từ lệnh trước đó
+# Kiểm tra mã trạng thái
 if [ $? -ne 0 ]; then
   echo "🚫 Commit failed due to linting errors."
   exit 1
